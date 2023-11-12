@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:  hsl(30, 38%, 92%);
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.container {
+    max-width: 1280px;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+#home {
+    background: #fff;
+    height: 50vh;
+    overflow: hidden;
+    border-radius: 2%;
+    border-bottom: 0;
+    width: 600px;
+    place-items: center;
+}
+#home .main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.main-container img {
+    width:300px;
+    height: 350px
+}
+
+.main-container #container_text {
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    margin: 3px;
+    overflow: hidden;
+    line-height: 1.1;
+    margin-top: 10px;
+}
+.main-container #container_text h4{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 50;
+    font-size: small;
+}
+
+.main-container #container_text h1{
+    color: hsl(212, 21%, 14%);
+    font-weight: 700px;
+    margin-top: 5px;
+    
+}
+.main-container #container_text p{
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    
+}
+.main-container #container_text .flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.main-container #container_text h2{
+    color: hsl(158, 36%, 37%);
+}
+ .main-container #container_text h3{
+    text-decoration: line-through;
+    font-size: small;
+ }
+ .main-container .fas{
+    color: #fff;
+    margin-right: 10px;
+ }
+
+ .btn{
+    display: inline-block;
+    padding: 0.5rem 5rem;
+    background: hsl(158, 36%, 37%);
+    border-radius: 4%;
+    border: none;
+    color: #fff;
+    
+ }
+ .btn:hover{
+    background-color: darkolivegreen;
+    cursor: pointer;
+ }
+ 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
